@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './band.css'
+import Like from './Like'
 
 class Band extends Component {
 
@@ -11,6 +12,7 @@ class Band extends Component {
           <h3>Formed: {this.props.formed}</h3>
           <h3>origin: {this.props.origin}</h3>
           <h3>fans: {this.props.fans}</h3>
+        <Like />
         </div>
       )
     }

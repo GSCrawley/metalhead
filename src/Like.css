@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+  }
+
+.right {
+    color: white;
+  }
+
+.none {
+    display: none;
+  }
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }

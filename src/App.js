@@ -1,26 +1,30 @@
-import React from 'react';
+import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Heading from './Heading';
+import Band from './Band';
+import Like from './Like';
+import './App.css'
+const data = require('./metal.json')
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  
+  render() {
+
+    console.log("DATA: " + data)
+
+    return (
+      <div>
+          <Heading />
+          {
+          data.map((bandObject) => {
+            return <Band band_name={bandObject.band_name} formed={bandObject.formed} origin={bandObject.origin} fans={bandObject.fans}/>
+          })
+          }
+          
+      </div>
+    )
+  }
 }
 
 export default App;

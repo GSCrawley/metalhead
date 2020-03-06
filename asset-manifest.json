@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/metalhead/static/css/main.0c074b47.chunk.css",
+    "main.js": "/metalhead/static/js/main.22e6a76c.chunk.js",
+    "main.js.map": "/metalhead/static/js/main.22e6a76c.chunk.js.map",
+    "runtime-main.js": "/metalhead/static/js/runtime-main.321ee083.js",
+    "runtime-main.js.map": "/metalhead/static/js/runtime-main.321ee083.js.map",
+    "static/js/2.351c5111.chunk.js": "/metalhead/static/js/2.351c5111.chunk.js",
+    "static/js/2.351c5111.chunk.js.map": "/metalhead/static/js/2.351c5111.chunk.js.map",
+    "index.html": "/metalhead/index.html",
+    "precache-manifest.450cc33ecdef0c5386f23faeae6b63af.js": "/metalhead/precache-manifest.450cc33ecdef0c5386f23faeae6b63af.js",
+    "service-worker.js": "/metalhead/service-worker.js",
+    "static/css/main.0c074b47.chunk.css.map": "/metalhead/static/css/main.0c074b47.chunk.css.map",
+    "static/js/2.351c5111.chunk.js.LICENSE.txt": "/metalhead/static/js/2.351c5111.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/metalhead/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.321ee083.js",
+    "static/js/2.351c5111.chunk.js",
+    "static/css/main.0c074b47.chunk.css",
+    "static/js/main.22e6a76c.chunk.js"
+  ]
+}
